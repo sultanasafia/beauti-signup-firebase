@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Assistant', sans-serif; */
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Pacifico', cursive; */
+ /* font-family: 'Roboto', sans-serif; */
+font-family: 'Ubuntu', sans-serif; 
+}
+
+
+h1{
+font-family: 'Pacifico', cursive;
+color: #182C61;
+}
+#contain{
+    width: 320px;
+    height: 390px;
+    border: 5px dotted #191b4b;
+    text-align: center;
+    margin: 100px auto;
+    border-radius: 8px;
+    box-shadow: 9px 8px 9px rgba(8, 9, 9, 0.6);
+    background-color:#686cdb;
+    transition: all 1s linear;
+}
+#contain:hover{
+/* transform:rotateY(160deg); */
+background-image: url('./images/download.jpg');
+}
+input{
+    padding: 10px;
+    margin: 6px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 7px 3px 6px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+}
+#submitbtn{
+    padding: 13px;
+    margin: 6px;
+    margin-top: 12px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 7px 3px 6px rgba(0, 0, 0, 0.2);
+    background-color: #182C61;
+    color: #fff;
+}
+#loginbtn{
+    padding: 13px;
+    margin: 6px;
+    margin-top: 12px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 7px 3px 6px rgba(0, 0, 0, 0.2);
+    background-color: #182C61;
+    color: #fff;   
+}

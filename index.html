@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGNUP-WITH-FIREBASE</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant&family=Lato&family=Pacifico&family=Roboto&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    
+    <div id="contain">
+   <h1>Signup</h1>
+      <input type="text" id="firstName"  minlength="3" maxlength="20" required placeholder="First Name" />
+      <br />
+      <input type="text" id="lastName" minlength="1" maxlength="20" required placeholder="Last Name"/>
+      <br />
+      <input type="email" id="email"  required placeholder="Email"/>
+      <br />
+      <input type="password" id="password"  minlength="6" required placeholder="Password"/>
+      <br />
+      <input type="password" id="repeatPassword"  required placeholder="Repeat Password"/>
+      <br />
+      <button type="submit" id="submitbtn">Sign Up</button>
+      <button type="submit" id="loginbtn">log in</button>
+
+    </div>
+
+
+
+
+
+    <script type="module" src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+</body>
+</html>
